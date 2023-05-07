@@ -25,5 +25,5 @@ done
 google-chrome-stable --remote-debugging-port=$PORT \
                      --flag-switches-begin \
                      --flag-switches-end \
-                     --profile-directory=$PROFILE \
+                     --profile-directory="$PROFILE" \
                      https://chat.openai.com/ &
